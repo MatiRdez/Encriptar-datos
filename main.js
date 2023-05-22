@@ -31,5 +31,9 @@ const encriptar = () => {
     digitoFinalA4 = auxA2;
 
     let claveA = digitoFinalA1 + "" + digitoFinalA2 + "" + digitoFinalA3 + "" + digitoFinalA4;
+
+    let textoA = document.getElementById("claveA");
+
+    textoA.innerHTML = "Su clave encriptada es: " + claveA;
     
 }
