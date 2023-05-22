@@ -8,3 +8,6 @@ inputA.addEventListener("input", () => {
         document.getElementById("enviarA").disabled = true;
     }
 });
+
+const encriptar = () => {
+}
