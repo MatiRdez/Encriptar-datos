@@ -10,4 +10,12 @@ inputA.addEventListener("input", () => {
 });
 
 const encriptar = () => {
+
+    let numA = inputA.value;
+    let cadenaA = numA.toString();
+    let digitosA = [];
+    for (let i = 0; i < cadenaA.length; i++){
+        digitosA.push(parseInt(cadenaA[i], 10));
+    }
+    
 }
