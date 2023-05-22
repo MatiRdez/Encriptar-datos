@@ -29,5 +29,7 @@ const encriptar = () => {
     let auxA2 = digitoFinalA2;
     digitoFinalA2 = digitoFinalA4;
     digitoFinalA4 = auxA2;
+
+    let claveA = digitoFinalA1 + "" + digitoFinalA2 + "" + digitoFinalA3 + "" + digitoFinalA4;
     
 }
