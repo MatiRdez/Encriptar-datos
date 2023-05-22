@@ -22,5 +22,12 @@ const encriptar = () => {
     let digitoFinalA2 = ((digitosA[1] + 7) % 10);
     let digitoFinalA3 = ((digitosA[2] + 7) % 10);
     let digitoFinalA4 = ((digitosA[3] + 7) % 10);
+
+    let auxA1 = digitoFinalA1;
+    digitoFinalA1 = digitoFinalA3;
+    digitoFinalA3 = auxA1;
+    let auxA2 = digitoFinalA2;
+    digitoFinalA2 = digitoFinalA4;
+    digitoFinalA4 = auxA2;
     
 }
