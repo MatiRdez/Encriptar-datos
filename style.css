@@ -41,3 +41,23 @@ input{
     font-family: 'Bowlby One SC';
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
+#enviarA:enabled{
+    background-color: #6826a5;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+#enviarA:hover:enabled{
+    transform: scale(1.15);
+}
+
+#enviarB:enabled{
+    background-color: #6826a5;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+#enviarB:hover:enabled{
+    transform: scale(1.15);
+}
