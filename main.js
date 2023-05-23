@@ -39,3 +39,12 @@ const encriptar = () => {
 }
 
 let inputB = document.getElementById("inputB");
+
+inputB.addEventListener("input", () => {
+    if(inputB.value.length === 4){
+        document.getElementById("enviarB").disabled = false;
+    }
+    else{
+        document.getElementById("enviarB").disabled = true;
+    }
+});
