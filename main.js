@@ -50,4 +50,12 @@ inputB.addEventListener("input", () => {
 });
 
 const decifrar = () => {
+
+    let numB = inputB.value;
+    let cadenaB = numB.toString();
+    let digitosB = [];
+    for (let i = 0; i < cadenaB.length; i++){
+        digitosB.push(parseInt(cadenaB[i], 10));
+    }
+
 }
