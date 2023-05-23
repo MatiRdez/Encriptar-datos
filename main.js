@@ -48,3 +48,6 @@ inputB.addEventListener("input", () => {
         document.getElementById("enviarB").disabled = true;
     }
 });
+
+const decifrar = () => {
+}
