@@ -72,4 +72,8 @@ const decifrar = () => {
 
     let claveB = digitoFinalB1 + "" + digitoFinalB2 + "" + digitoFinalB3 + "" + digitoFinalB4;
 
+    let textoB = document.getElementById("claveB");
+
+    textoB.innerHTML = "Su clave decifrada es: " + claveB;
+
 }
