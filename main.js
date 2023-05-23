@@ -70,4 +70,6 @@ const decifrar = () => {
     digitoFinalB2 = digitoFinalB4;
     digitoFinalB4 = auxB2;
 
+    let claveB = digitoFinalB1 + "" + digitoFinalB2 + "" + digitoFinalB3 + "" + digitoFinalB4;
+
 }
