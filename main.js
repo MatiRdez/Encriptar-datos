@@ -63,4 +63,11 @@ const decifrar = () => {
     let digitoFinalB3 = ((digitosB[2] - 7 + 10) % 10);
     let digitoFinalB4 = ((digitosB[3] - 7 + 10) % 10);
 
+    let auxB1 = digitoFinalB1;
+    digitoFinalB1 = digitoFinalB3;
+    digitoFinalB3 = auxB1;
+    let auxB2 = digitoFinalB2;
+    digitoFinalB2 = digitoFinalB4;
+    digitoFinalB4 = auxB2;
+
 }
