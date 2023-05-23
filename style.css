@@ -17,3 +17,17 @@ body{
     background-position: center center;
     background-size: cover;
 }
+
+.contenedor{
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 25px;
+    background-color: #cecece;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+
+.contenedor div{
+    margin-bottom: 30px;
+}
