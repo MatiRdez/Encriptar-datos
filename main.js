@@ -37,3 +37,5 @@ const encriptar = () => {
     textoA.innerHTML = "Su clave encriptada es: " + claveA;
     
 }
+
+let inputB = document.getElementById("inputB");
