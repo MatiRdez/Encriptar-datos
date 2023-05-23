@@ -58,4 +58,9 @@ const decifrar = () => {
         digitosB.push(parseInt(cadenaB[i], 10));
     }
 
+    let digitoFinalB1 = ((digitosB[0] - 7 + 10) % 10);
+    let digitoFinalB2 = ((digitosB[1] - 7 + 10) % 10);
+    let digitoFinalB3 = ((digitosB[2] - 7 + 10) % 10);
+    let digitoFinalB4 = ((digitosB[3] - 7 + 10) % 10);
+
 }
